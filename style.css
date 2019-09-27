@@ -117,3 +117,17 @@ body {
 #partners #p9 {
     width: 5.5rem;
 }
+
+#links {
+    padding-top: 3rem;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+    background-color: #0175A2;
+    color: white;
+}
+
+#links a{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
