@@ -1,126 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>bbbox-ride-sharing-delivery</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style.css">
+    <title>BBBox. Ride-sharing delivery</title>
   </head>
   <body>
-    <section class="intro">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <h1 class="logo">BB Box</h1>
-            <h2 class="sublogo">Ride-sharing delivery</h2>
-            
-            <div class="down">
-                <a href="#problem" class="down">
-                        <b>How it works</b><br>
-                        <i class="fas fa-chevron-down"></i>
+            <a class="navbar-brand" href="#">BBBox</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#how_it_works">How it works
                 </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#safety">Safety</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#partners">Partners</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <section id="problem">
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                <div class="carousel-caption">
+                    <h2 class="display-4">BBBox</h2>
+                    <!-- <p class="lead">Ride-sharing delivery</p> -->
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background-image: url('https://www.vladtime.ru/uploads/posts/2018-06/1529667499_150003990411440x.jpeg')">
+                <div class="carousel-caption tj">
+                    <h2 class="display-4">Online retail</h2>
+                    <p class="lead">delivery problem</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background-image: url('https://salonobraczek.pl/data/articles/f305.jpg')">
+                <div class="carousel-caption">
+                    <h2 class="display-4">Ride-sharing</h2>
+                    <p class="lead">delivery</p>
+                </div>
+            </div>
+
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('https://img1.wsimg.com/isteam/stock/5790')">
+                <!-- <div class="ci container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 text-center">
+                        <h1 class="ci-head">250 RUB</h1>
+                        <p class="lead">delivery</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="carousel-caption">
+                    <h2 class="display-4">250 RUB</h2>
+                    <p class="lead">any destination</p>
+                </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('assets/images/tras.jpg')">
+                <!-- <div class="ci container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 text-center">
+                        <h1 class="ci-head">12 hours</h1>
+                        <p class="lead">delivery</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="carousel-caption">
+                    <h2 class="display-4">12 hours</h2>
+                    <p class="lead">service time</p>
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5" id="how_it_works">
         <div class="container">
-            <h1 class="vs">Speed  vs  Price</h1>
-            <img id="how_it_now" src="static/how_it_now.png" alt="">
-            <p id="vs_describe">If you will use traditional transport companies, you have to choose fast and expensive delivery or cheap and slower delivery.</p>
-            <p id="vs_describe">We changed it!</p>
-            <p id="vs_describe">
-                People drive to city that you need and they ready to bring you parcel by some money!
-            </p>
+            <h1 class="display-4">How it works</h1>
+
+            <h2 class="display-6">if you want to send something</h2>
+            <!-- Horizontal Steppers -->
+            <div class="row">
+                <div class="col-md-12">
+                <!-- Stepers Wrapper -->
+                <ul class="stepper stepper-horizontal">
+                    <!-- First Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">1</span>
+                        <span class="label">Leave order to delivery via app</span>
+                    </a>
+                    </li>
+                    <!-- Second Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">2</span>
+                        <span class="label">Drop parcel on pick point</span>
+                    </a>
+                    </li>
+                    <!-- Third Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">3</span>
+                        <span class="label">Confirm delivering via app</span>
+                    </a>
+                    </li>
+                </ul>
+                <!-- /.Stepers Wrapper -->
+                </div>
+            </div>
+            <!-- /.Horizontal Steppers -->
+            <p class="lead">Somebody who drives to the city that you need, delivers your package, because he/she already goes where you need.</p>
+            
+            <hr class="mb-5 mt-4">
+
+            <h2 class="display-6">if you drive to another city</h2>
+            <!-- Horizontal Steppers -->
+            <div class="row">
+                <div class="col-md-12">
+                <!-- Stepers Wrapper -->
+                <ul class="stepper stepper-horizontal">
+                    <!-- First Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">1</span>
+                        <span class="label">Take order for delivering via app</span>
+                    </a>
+                    </li>
+                    <!-- Second Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">2</span>
+                        <span class="label">Take parcel on pick point</span>
+                    </a>
+                    </li>
+                    <!-- Third Step -->
+                    <li class="active">
+                    <a href="#!">
+                        <span class="circle">3</span>
+                        <span class="label">Leave parcel on destinition pick point</span>
+                    </a>
+                    </li>
+                </ul>
+                <!-- /.Stepers Wrapper -->
+                </div>
+            </div>
+            <!-- /.Horizontal Steppers -->
+            <p class="lead"></p>
         </div>
     </section>
 
-    <section id="solution">
+    <section class="safety-section py-5" id="safety">
         <div class="container">
-            <h1 class="vs">How does it work?</h1>
+            <h1 class="display-4 text-center">Safety</h1>
+            <p class="lead text-center" style="margin-bottom: 3.5rem;">Safe for both sender and driver</p>
 
             <div class="row">
-                <div class="col-md-8">
-                    <br>
-                        1. Download a BBBox App and register <br><br>
-                        2. Choose the route and date <br><br>
-                        3. Match with the driver <br><br>
-                        4. Go to the pick point and drop-off the parcel <br><br>
-                        5. Just wait for the delivery confirmation <br><br>
+                <div class="col-md-3 mt-3">
+                    <p class="lead text-center display-12">
+                        <span class="oi oi-paperclip safety-icon"></span><br>
+                        Digital Contract
+                    </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="static/app.png" alt="">
+                <div class="col-md-3 mt-3">
+                    <p class="lead text-center display-12">
+                        <span class="oi oi-star safety-icon"></span><br>
+                        Rating System
+                    </p>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <p class="lead text-center display-12">
+                        <span class="oi oi-map safety-icon"></span><br>
+                        Tracking
+                    </p>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <p class="lead text-center display-12">
+                        <span class="oi oi-lock-locked safety-icon"></span><br>
+                        Insurance
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="partners">
+    <section class="partners py-5" id="partners">
         <div class="container">
-            <h1 class="vs">Our Partners & End users</h1>
-            <br>
-            <div class="row">
-                <div class="col-md-1">
-                    <img src="" alt="">
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p1.png" alt="">
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p2.png" alt="">
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p3.png" alt="">   
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p4.png" alt="" id="p4">     
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p5.png" alt="" id="p5">   
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p6.png" alt="" id="p6">   
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p7.png" alt="" id="p7">
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p8.png" alt="" id="p8">  
-                </div>
-                <div class="col-md-1">
-                    <img src="static/p9.png" alt="" id="p9">
-                </div>
-                <div class="col-md-1">
-                    
-                </div>
-                <div class="col-md-1">
-                    
-                </div>
+            <h1 class="display-4 text-center md-5 mt-3">Partners & Customers</h1>
+
+            <div class="row mt-5">
+                <div class="col-md-2"><img src="assets/images/p1.png" alt=""></div>
+                <div class="col-md-2"><img src="assets/images/p2.png" alt=""></div>
+                <div class="col-md-2"><img src="assets/images/p3.png" alt=""></div>
+                <div class="col-md-3"><img src="assets/images/p4.png" alt=""></div>
+                <div class="col-md-2"><img src="assets/images/p5.png" alt=""></div>
+                <div class="col-md-2"><img src="assets/images/p6.png" alt=""></div>
+                <div class="col-md-3"><img src="assets/images/p7.png" alt=""></div>
+                <div class="col-md-3"><img src="assets/images/p8.png" alt=""></div>
+                <div class="col-md-3"><img src="assets/images/p9.png" alt=""></div>
             </div>
         </div>
     </section>
 
-    <section id='links'>
-        <div class="container">
+    <section class="contact" id="contact">
+        <div class="container" style="padding-top: 2rem; padding-bottom: 1rem;">
             <div class="row">
-                <div class="col-md-8">
-                    "BBBox inc." - ride-sharing delivery. 2019. 
+                <div class="col-md-6">
+                    <h3 class="display-5">Contacts</h3>
                 </div>
-                <div class="col-md-4">
-                        <a href="https://bbbox-ride-sharing-delivery.github.io/index.html">Financial model</a>
+                <div class="col-md-6">
+                    For investors: <a href="mailto:ivan.legenchuk@specialsituations.net">ivan.legenchuk[at]specialsituations.net</a>
                 </div>
             </div>
         </div>
     </section>
+      
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/6432f7e187.js" crossorigin="anonymous"></script>  
-</body>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+  </body>
 </html>

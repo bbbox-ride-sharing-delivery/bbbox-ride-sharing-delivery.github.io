@@ -1,0 +1,49 @@
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ci {
+    color: #fff;
+}
+
+.ci-head {
+    font-size: 3.5rem;
+    font-weight: 350;
+    line-height: 1.3;
+}
+
+.safety-section {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.safety-icon {
+    font-size: 2rem;
+}
+
+.partners img {
+    /* width: 6rem; */
+    height: 6rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.contact {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.tj {
+    text-shadow: #000000 0px 0px 2rem;
+}
