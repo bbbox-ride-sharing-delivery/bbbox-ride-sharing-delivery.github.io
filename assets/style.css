@@ -52,3 +52,16 @@
 .tj {
     text-shadow: #000000 0px 0px 2rem;
 }
+
+.sup { 
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 0.8rem;
+}
